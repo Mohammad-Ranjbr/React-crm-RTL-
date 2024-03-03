@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import './sidebar.css'
 
@@ -31,7 +31,7 @@ const Sidebar = props => {
     return (
         <div className='sidebar'>
             <div className="sidebar__logo">
-                <img src={logo} alt="company logo" />پنل کاربر
+                <img src={logo} alt="company logo"/>پنل کاربر
             </div>
             {
                 sidebar_items.map((item, index) => (

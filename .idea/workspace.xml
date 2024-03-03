@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3e7e620-ec5c-453f-9c1b-f390ab04df31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/JsonData/notification.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/JsonData/notification.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/JsonData/customers-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/JsonData/customers-list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/thememenu/ThemeMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/thememenu/ThemeMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/thememenu/thememenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/thememenu/thememenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topnav/TopNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topnav/TopNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topnav/topnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topnav/topnav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709371465875</updated>
       <workItem from="1709371467497" duration="12369000" />
-      <workItem from="1709442232524" duration="8279000" />
+      <workItem from="1709442232524" duration="8599000" />
     </task>
     <servers />
   </component>
