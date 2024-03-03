@@ -25,7 +25,7 @@
         "icon": "bx bx-mail-send"
     },
     {
-        "display_name": "ارتباط با اپراتوز",
+        "display_name": "ارتباط با اپراتور",
         "route": "/Ticket",
         "icon": "bx bxs-id-card"
     },

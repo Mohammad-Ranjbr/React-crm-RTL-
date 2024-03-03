@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3e7e620-ec5c-453f-9c1b-f390ab04df31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/boxicons-2.0.7/css/Font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/boxicons-2.0.7/fonts/Iranian Sans.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/boxicons-2.0.7/fonts/Iranian Sans.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/boxicons-2.0.7/fonts/Iranian Sans.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CallLog/CallLogComponents.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Notifications/NotificationComponents.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Setting/SettingComponents.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Ticketing/TicketingComponents.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/JsonData/sidebar_routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/JsonData/sidebar_routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dropdown/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dropdown/dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topnav/TopNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topnav/TopNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topnav/topnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topnav/topnav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709371465875</updated>
       <workItem from="1709371467497" duration="12369000" />
-      <workItem from="1709442232524" duration="7161000" />
+      <workItem from="1709442232524" duration="7518000" />
     </task>
     <servers />
   </component>
