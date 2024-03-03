@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Iranian Sans.woff2') format('woff2'),
+    url('../fonts/Iranian Sans.woff') format('woff');
+    /* Add more src URLs for different font formats if necessary */
+}
+
+*{
+    font-family: 'CustomFont', Arial, sans-serif;
+}

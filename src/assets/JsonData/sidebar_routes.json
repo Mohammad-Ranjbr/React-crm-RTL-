@@ -15,23 +15,23 @@
         "icon": "bx bxs-user-account"
     },
     {
-        "display_name": "New Entries",
-        "route": "/NewEntries",
-        "icon": "bx bxs-message-alt-add"
+        "display_name": "تماس های اخیر",
+        "route": "/RecentCall",
+        "icon": "bx bx-phone-incoming"
     },
     {
-        "display_name": "View Entries",
-        "route": "/ViewEntries",
-        "icon": "bx bxs-file-find"
+        "display_name": "لیست اعلانات",
+        "route": "/Notification",
+        "icon": "bx bx-mail-send"
     },
     {
-        "display_name": "Radar Chart",
-        "route": "/RadarChart",
-        "icon": "bx bx-radar"
+        "display_name": "ارتباط با اپراتوز",
+        "route": "/Ticket",
+        "icon": "bx bxs-id-card"
     },
     {
-        "display_name": "ScoreBoard",
-        "route": "/ScoreBoard",
-        "icon": "bx bx-clipboard"
+        "display_name": "تنظیمات",
+        "route": "/setting",
+        "icon": "bx bx-shield-quarter"
     }
 ]

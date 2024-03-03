@@ -10,12 +10,12 @@ import ThemeMenu from '../thememenu/ThemeMenu'
 
 import notifications from '../../assets/JsonData/notification.json'
 
-import user_image from '../../assets/images/tuat.png'
+import user_image from '../../assets/images/logo.png'
 
 import user_menu from '../../assets/JsonData/user_menus.json'
 
 const curr_user = {
-    display_name: 'Doğukan Taha ',
+    display_name: 'مدیر سیستم ',
     image: user_image
 }
 
@@ -55,14 +55,6 @@ const Topnav = () => {
             </div>
             <div className="topnav__right">
                 <div className="topnav__right-item">
-                    {/* dropdown here */}
-                    <Dropdown
-                        customToggle={() => renderUserToggle(curr_user)}
-                        contentData={user_menu}
-                        renderItems={(item, index) => renderUserMenu(item, index)}
-                    />
-                </div>
-                <div className="topnav__right-item">
                     <Dropdown
                         icon='bx bx-bell'
                         badge='12'
@@ -72,6 +64,15 @@ const Topnav = () => {
                     />
                     {/* dropdown here */}
                 </div>
+                <div className="topnav__right-item">
+                    {/* dropdown here */}
+                    <Dropdown
+                        customToggle={() => renderUserToggle(curr_user)}
+                        contentData={user_menu}
+                        renderItems={(item, index) => renderUserMenu(item, index)}
+                    />
+                </div>
+
                 <div className="topnav__right-item">
                     <ThemeMenu/>
                 </div>

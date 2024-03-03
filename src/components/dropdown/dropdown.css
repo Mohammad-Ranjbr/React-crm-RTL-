@@ -21,7 +21,7 @@
     justify-content: center;
     position: absolute;
     top: -12px;
-    right: -10px;
+    right: -3px;
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -32,10 +32,10 @@
 
 .dropdown__content {
     position: absolute;
-    top: calc(100% + 5px);
+    top: calc(100% + 3px);
     right: 0;
     width: max-content;
-    max-width: 400px;
+    max-width: 300px;
     background-color: vaR(--main-bg);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
