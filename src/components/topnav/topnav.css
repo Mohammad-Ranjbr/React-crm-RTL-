@@ -39,7 +39,7 @@
 }
 
 .topnav__right-item ~ .topnav__right-item {
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .notification-item {
@@ -53,7 +53,7 @@
 }
 
 .notification-item > i {
-    margin-right: 50px;
+    margin-right: 3px;
     font-size: 1.5rem;
 }
 

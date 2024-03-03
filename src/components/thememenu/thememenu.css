@@ -18,7 +18,7 @@
 .theme-menu__close {
     position: absolute;
     top: 17px;
-    right: 20px;
+    left: 20px;
     background-color: transparent;
     font-size: 1.5rem;
 }
