@@ -38,7 +38,7 @@ const Contact = () => {
                 <div className="col-3">
                     <div>
 
-                        <button onClick={openModal} className="btn">
+                        <button onClick={openModal} className="btn" >
                         <span className="bx bxs-phone-call "></span>
                         </button>
                         {/* Render the Modal component */}

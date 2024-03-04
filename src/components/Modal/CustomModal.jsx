@@ -23,17 +23,14 @@ const CustomModal   = ({ showModal, closeModal }) => {
     return showModal ? (
         <div className="modal-overlay">
             <div className="modal">
-                <h2>Modal Title</h2>
+                <h2>مشخصات تماس</h2>
                 <form onSubmit={handleSubmit}>
-                    <input
-                        type="text"
-                        value={content}
-                        onChange={handleChange}
-                        placeholder="Enter something..."
-                    />
-                    <button type="submit">Submit</button>
-                </form>
-                <button onClick={closeModal}>Close</button>
+
+                    <h6>شماره:</h6>
+                    <h6>نوع شماره </h6>
+                    <h6> گروه بندی</h6>
+                 </form>
+                <button className="button111 test" onClick={closeModal}>بستن</button>
             </div>
         </div>
     ) : null;
