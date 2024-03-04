@@ -1,6 +1,8 @@
 .card {
-    display: flex;
+
     flex-direction: column;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .card .span {
@@ -14,4 +16,22 @@
 
 .card .span > :last-child {
     order: 2; /* انتها */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 70px; /* عرض دکمه */
+    height: 40px; /* ارتفاع دکمه */
+   border: 1px solid black;
+    border-radius: 25px;
+    background-color: transparent; /* بک‌گراند بدون رنگ */
+}
+.btn:hover{
+    width: 70px; /* عرض دکمه */
+    height: 40px; /* ارتفاع دکمه */
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: var(--main-color);; /* بک‌گراند بدون رنگ */
 }
