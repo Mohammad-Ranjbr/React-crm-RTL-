@@ -36,7 +36,13 @@
     bottom: 10px; /* فاصله دکمه‌ها از پایین صفحه */
     right: 60px; /* فاصله دکمه‌ها از راست صفحه */
     left: 60px; /* فاصله دکمه‌ها از راست صفحه */
-    background-color:var(--main-color); /* اینجا پشت‌زمینه بی‌رنگ و شفاف است */
+    border-radius: var(--border-radius);
+    background-image: linear-gradient(
+            to right,
+            var(--main-color),
+            var(--second-color)
+    );
+    color: var(--txt-white);
     border: 0.5px solid black;
     border-radius: 14px;
     padding: 10px  10px  10px  10px;

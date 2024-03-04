@@ -55,6 +55,17 @@ const Contact = () => {
         <h2 className="page-header">
             دفترچه تلفن
         </h2>
+        <div className="row  marginandpading">
+     <div className="col-8">
+         <div className="topnav__search">
+             <input type="text" placeholder='اینجا جستجو کنید..' />
+             <i className='bx bx-search'></i>
+         </div>
+     </div>
+            <div className="col-4">
+                <button className="mybtn">جستوجو</button>
+            </div>
+        </div>
         <div className="row">
             <div className="col-12">
                 <div className="card">
