@@ -96,7 +96,7 @@ const latestOrders = {
     header: [
         "شناسه",
         "کاربر",
-        "مجموعه ارزش ها",
+        "مجموعه زمان",
         "تاریخ",
         "وضعیت"
     ],
@@ -105,45 +105,45 @@ const latestOrders = {
             id: "#OD1711",
             user: "محمد رنج بر",
             date: "1402/12/11",
-            price: "$900",
-            status: "shipping"
+            price: "00:10:00",
+            status: "دریافتی"
         },
         {
             id: "#OD1711",
             user: "محمد رنج بر",
             date: "1402/12/11",
-            price: "$900",
-            status: "paid"
+            price: "00:10:00",
+            status: "بی پاسخ"
         },
         {
             id: "#OD1711",
             user: "محمد رنج بر",
             date: "1402/12/11",
-            price: "$900",
-            status: "pending"
+            price: "00:10:00",
+            status: "گرفته شده"
         },
         {
             id: "#OD1711",
             user: "محمد رنج بر",
             date: "1402/12/11",
-            price: "$900",
-            status: "paid"
+            price: "00:10:00",
+            status: "بی پاسخ"
         },
         {
             id: "#OD1711",
             user: "محمد رنج بر",
             date: "1402/12/11",
-            price: "$900",
+            price: "00:10:00",
             status: "refund"
         }
     ]
 }
 
 const orderStatus = {
-    "shipping": "primary",
-    "pending": "warning",
-    "paid": "success",
-    "refund": "danger"
+    "دریافتی": "primary",
+    "گرفته شده": "warning",
+    "بی پاسخ": "danger",
+
 }
 
 const renderOrderHead = (item, index) => (
@@ -202,28 +202,10 @@ const Dashboard = () => {
                         />
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-12">
                     <div className="card">
                         <div className="card__header">
-                            <h3>لیست </h3>
-                        </div>
-                        <div className="card__body">
-                            <Table
-                                headData={topCustomers.head}
-                                renderHead={(item, index) => renderCusomerHead(item, index)}
-                                bodyData={topCustomers.body}
-                                renderBody={(item, index) => renderCusomerBody(item, index)}
-                            />
-                        </div>
-                        <div className="card__footer">
-                            <Link to='/'>مشاهده همه</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-8">
-                    <div className="card">
-                        <div className="card__header">
-                            <h3>آخرین فعالیت ها</h3>
+                            <h3>آخرین تماس ها</h3>
                         </div>
                         <div className="card__body">
                             <Table

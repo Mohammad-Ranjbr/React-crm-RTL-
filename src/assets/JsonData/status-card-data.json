@@ -1,18 +1,18 @@
 [
     {
-        "icon": "bx bx-shopping-bag",
-        "count": "1,995",
-        "title": "گزینه شماره "
+        "icon": "bx bxs-contact",
+        "count": "187",
+        "title": "مجموعه شماره ها "
     },
     {
-        "icon": "bx bx-cart",
+        "icon": "bx bxs-group",
         "count": "2,001",
-        "title": "گزینه شماره "
+        "title": "همگروه "
     },
     {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
-        "title": "گزینه شماره "
+        "icon": "bx bxs-phone-call",
+        "count": "100",
+        "title": " تماس روزانه"
     },
     {
         "icon": "bx bx-receipt",
